@@ -1,0 +1,107 @@
+.myslides{
+    display: none;
+}
+img{
+    vertical-align: middle;
+}
+.slideshow-container{
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+.text{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.number-text{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px;
+    position: absolute;
+    top: 0;
+
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active{
+    background-color: #717171;
+    
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade{
+    from{opacity: .4}
+    to{opacity: 1}
+}
+
+.link-container{
+    display: inline-flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 15px;
+   
+}
+.links{
+    
+    height: 100%;
+    
+}
+.whatsapp-link{
+    height: 50px;
+}
+.facebook-link{
+    height: 50px;
+}
+.gmail-link{
+    height: 40px;
+} 
+    
+.completed-image-container{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.completed-image{
+    height: 100%;
+    margin: 5px;
+}
+button:hover{
+    background-color: rgb(187, 133, 133);
+    cursor: pointer;
+    color: rgb(213, 40, 40);
+}
+button:active{
+    background-color: aliceblue;
+    color: white;
+}
+.ppp{
+    margin:0;
+    margin-left: 30%;
+
+}
+.main-ppp{
+    font-size: 20px;
+    color:green;
+    font-weight:500;
+    text-decoration: underline;
+    font-style:italic
+}
